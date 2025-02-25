@@ -1,6 +1,6 @@
 import pytest
 import math
-from src.geometria.geometria import Geometria
+from src.geometric.geometric import Geometria
 
 class TestGeometria:
     def setup_method(self):
