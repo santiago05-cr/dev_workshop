@@ -1,0 +1,28 @@
+# Entorno virtual
+venv/
+.venv/
+.env
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Distribución / empaquetado
+dist/
+build/
+*.egg-info/
+
+# Cobertura de código
+.coverage
+htmlcov/
+
+# Editor específico
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
