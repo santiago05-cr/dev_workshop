@@ -62,7 +62,7 @@ To run tests, you should to complete the tests and commit them.
   git push -u origin main
 ```
 
-### Then go to your github profile 
+### Then go to your github repo
 
 Look in the actions tab.
 
@@ -87,7 +87,7 @@ If your teachers send you an advice, you should to add a new remote to receive t
 
 ```bash
   git remote add original https://github.com/sigmotoa/dev_workshop.git
-  git pull origin main
+  git pull original main
   
 ```
 
