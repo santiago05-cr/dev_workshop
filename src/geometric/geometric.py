@@ -15,7 +15,7 @@ class Geometria:
         Returns:
             float: Área del rectángulo
         """
-        return base*altura
+        pass
     
     def perimetro_rectangulo(self, base, altura):
         """
