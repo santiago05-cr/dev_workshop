@@ -6,6 +6,7 @@ on:
   pull_request:
     branches: [ main ]
 
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -26,11 +27,11 @@ jobs:
         
     - name: Test with pytest
       run: |
-        pytest --cov=src tests/ || true
+        pytest --cov=src tests/
     
     - name: Generate coverage report
       run: |
-        pytest --cov=src --cov-report=xml tests/ || true
+        pytest --cov=src --cov-report=xml tests/
     
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
